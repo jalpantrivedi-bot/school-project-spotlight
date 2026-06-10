@@ -80,7 +80,7 @@ st.write("🌙 WELCOME TO SLEEP KINGDOM 🌙")
 st.write("💀 HARD MODE ACTIVATED")
 st.write("=" * 55)
 
-name = input("\nEnter your name: ")
+name = st.text_input("\nEnter your name: ")
 
 player = Player(name)
 
@@ -133,7 +133,7 @@ while True:
     st.write("8. 🎰 Gamble Money")
     st.write("9. 🚪 Quit")
 
-    choice = input("\nEnter choice: ")
+    choice = st.text_input("\nEnter choice: ")
 
     # ======================================================
     # SLEEP
